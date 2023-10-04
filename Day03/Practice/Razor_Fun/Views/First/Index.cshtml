@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Fun</title>
+</head>
+<body>
+    @{
+        var FoodList = new List<string>
+        {
+            "Apple Pie",
+            "Pizza",
+            "Cinnamon Rolls",
+            "Lasagna",
+            "Donuts",
+            "Chocolate Cake",
+            "Burritos"
+        };
+        foreach (var Food in FoodList)
+        {
+            <div>
+                @if(Food.StartsWith('C'))
+                //@if(Food[0]=='C')
+                {
+                    <p style="color: red;">@Food</p>
+                }
+                else
+                {
+                    <p>@Food</p>
+                }
+            </div>
+        }
+    }
+</body>
+</html>
