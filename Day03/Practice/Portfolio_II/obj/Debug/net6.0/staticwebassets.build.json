@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "pzuJnfgwO8J1kymGMsbn8erV0hwxhhb8OujobpZhuLk=",
+  "Source": "Portfolio_II",
+  "BasePath": "_content/Portfolio_II",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portfolio_II\\wwwroot",
+      "Source": "Portfolio_II",
+      "ContentRoot": "C:\\Coding_Dojo\\csharp_.net\\Day03\\Practice\\Portfolio_II\\wwwroot\\",
+      "BasePath": "_content/Portfolio_II",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Coding_Dojo\\csharp_.net\\Day03\\Practice\\Portfolio_II\\wwwroot\\css\\style.css",
+      "SourceId": "Portfolio_II",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding_Dojo\\csharp_.net\\Day03\\Practice\\Portfolio_II\\wwwroot\\",
+      "BasePath": "_content/Portfolio_II",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Coding_Dojo\\csharp_.net\\Day03\\Practice\\Portfolio_II\\wwwroot\\images\\Profil.png",
+      "SourceId": "Portfolio_II",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Coding_Dojo\\csharp_.net\\Day03\\Practice\\Portfolio_II\\wwwroot\\",
+      "BasePath": "_content/Portfolio_II",
+      "RelativePath": "images/Profil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Profil.png"
+    }
+  ]
+}

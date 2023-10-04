@@ -1,0 +1,28 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Portfolio_II
+build_property.RootNamespace = Portfolio_II
+build_property.ProjectDir = c:\Coding_Dojo\csharp_.net\Day03\Practice\Portfolio_II\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Coding_Dojo\csharp_.net\Day03\Practice\Portfolio_II
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Coding_Dojo/csharp_.net/Day03/Practice/Portfolio_II/Views/First/AboutMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcQWJvdXRNZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding_Dojo/csharp_.net/Day03/Practice/Portfolio_II/Views/First/ContactMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcQ29udGFjdE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding_Dojo/csharp_.net/Day03/Practice/Portfolio_II/Views/First/MyProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcTXlQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
