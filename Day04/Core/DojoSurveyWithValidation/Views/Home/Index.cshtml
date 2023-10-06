@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="card shadow border p-3">
+    <h4 class="card-head text-Black text-center">Add User</h4>
+    <div class="card-body">
+        <form asp-action="CreateUser" asp-controller="Home" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input class=" form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Location" class="form-label"></label>
+                <select class=" form-control" asp-for="Location">
+                    <option value="San Jose">San Jose</option>
+                    <option value="Tokyo">Tokyo</option>
+                    <option value="New Yourk">New Yourk</option>
+                </select>                
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Language" class="form-label"></label>
+                <select class=" form-control" asp-for="Language">
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                </select>                
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Comment" class="form-label"></label>
+                <textarea class=" form-control" asp-for="Comment"></textarea>
+                <span asp-validation-for="Comment" class="text-danger"></span>
+            </div>
+            
+            <button class="btn btn-primary w-40">Submit</button>
+        </form>
+    </div>
+</div>
